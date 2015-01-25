@@ -1,5 +1,3 @@
-using System.Linq;
-
 namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
 {
     public class ScenarioT : Scenario
@@ -8,35 +6,25 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
         {
             Id = "T";
             IsGameOver = true;
-            Title = "Winning Like a Mini Boss";
-            ImageIndex = (int)GameState.ImageIndex.ScenarioB;
-            Text = "You sneeze and the aliens die. The end. Yes this was an old radio thing.";
+            Title = "Margaret River";
+            ImageIndex = (int)GameState.ImageIndex.None;
+            Text = "";
             Choices = new[]
                 {
-                    "win",
-                    "win",
-                    "win",
-                    "sleep"
+                    "You",
+                    "Have",
+                    "Survived",
+                    "Today"
                 };
             Outcomes = new[]
                 {
                     CreateOutcome1()
-  
                 };
         }
 
         private static Outcome CreateOutcome1()
         {
-            return new Outcome
-                {
-                    IsActive = players => true,
-                    ActionOutcomeAndGetDisplayText = players =>
-                    {
-                        return "End";
-                    },
-                    NextScenarioKey = ""
-                };
+            return new Outcome();
         }
-
     }
 }

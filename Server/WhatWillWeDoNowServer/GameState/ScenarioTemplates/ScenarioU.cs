@@ -1,5 +1,3 @@
-using System.Linq;
-
 namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
 {
     public class ScenarioU : Scenario
@@ -8,34 +6,25 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
         {
             Id = "U";
             IsGameOver = true;
-            Title = "You messed up bro. YOLO";
-            ImageIndex = (int)GameState.ImageIndex.ScenarioB;
-            Text = "Well that didn't work. Maybe next time. Pity the fool.";
+            Title = "Swan Valley";
+            ImageIndex = (int)GameState.ImageIndex.None;
+            Text = "";
             Choices = new[]
                 {
-                    "derp",
-                    "derp",
-                    "derp",
-                    "derp"
+                    "You",
+                    "Have",
+                    "Survived",
+                    "Today"
                 };
             Outcomes = new[]
                 {
                     CreateOutcome1()
-  
                 };
         }
 
-        // TO DO: initiate reset
         private static Outcome CreateOutcome1()
         {
-            return new Outcome
-                {
-                    
-                };
+            return new Outcome();
         }
-
-     
-   
-
     }
 }
