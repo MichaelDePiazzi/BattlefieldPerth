@@ -7,6 +7,7 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
         public ScenarioT()
         {
             Id = "T";
+            IsGameOver = true;
             Title = "Winning Like a Mini Boss";
             ImageIndex = (int)GameState.ImageIndex.ScenarioB;
             Text = "You sneeze and the aliens die. The end. Yes this was an old radio thing.";
@@ -24,7 +25,6 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
                 };
         }
 
-        // TO DO: initiate reset
         private static Outcome CreateOutcome1()
         {
             return new Outcome
@@ -37,9 +37,6 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
                     NextScenarioKey = ""
                 };
         }
-
-     
-   
 
     }
 }

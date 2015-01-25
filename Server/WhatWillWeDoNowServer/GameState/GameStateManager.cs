@@ -172,7 +172,7 @@ namespace WhatWillWeDoNowServer.GameState
             CurrentScenarioKey = outcome.NextScenarioKey;
             ClearChoices();
 
-            if (CurrentScenarioKey == "")
+            if ((CurrentScenarioKey == "") || CurrentScenario.IsGameOver)
                 EndGame();
         }
 

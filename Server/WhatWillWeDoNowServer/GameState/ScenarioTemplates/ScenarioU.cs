@@ -7,6 +7,7 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
         public ScenarioU()
         {
             Id = "U";
+            IsGameOver = true;
             Title = "You messed up bro. YOLO";
             ImageIndex = (int)GameState.ImageIndex.ScenarioB;
             Text = "Well that didn't work. Maybe next time. Pity the fool.";

@@ -10,5 +10,6 @@ namespace WhatWillWeDoNowServer.GameState
         public string Text { get; set; }
         public IEnumerable<string> Choices { get; set; }
         public IEnumerable<Outcome> Outcomes { get; set; }
+        public bool IsGameOver { get; set; }
     }
 }
