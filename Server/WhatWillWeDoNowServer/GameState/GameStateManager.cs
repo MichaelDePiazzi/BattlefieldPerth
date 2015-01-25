@@ -176,7 +176,15 @@ namespace WhatWillWeDoNowServer.GameState
                 return;
             }
             UpdateText = outcome.ActionOutcomeAndGetDisplayText(Players);
-            CurrentScenarioKey = outcome.NextScenarioKey;
+            if (Players.Any(p => p.IsAlive))
+            {
+                CurrentScenarioKey = outcome.NextScenarioKey;
+            }
+            else
+            {
+                // all players are dead
+                CurrentScenarioKey = "";
+            }
             ClearChoices();
 
             if ((CurrentScenarioKey == "") || CurrentScenario.IsGameOver)
