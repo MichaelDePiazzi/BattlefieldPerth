@@ -100,6 +100,7 @@
     <Compile Include="GameState\ScenarioTemplates\ScenarioU.cs" />
     <Compile Include="GameState\ScenarioTemplates\ScenarioT.cs" />
     <Compile Include="GameState\ScenarioTemplates\ScenarioS.cs" />
+    <Compile Include="GameState\ScenarioTemplates\ScenarioX.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\RequestJoinModel.cs" />
     <Compile Include="Models\RequestUpdateClientModel.cs" />

@@ -34,5 +34,6 @@
         ScenarioT = 20,
         ScenarioU = 21,
         ScenarioV = 22,
+        ScenarioX = 24,
     }
 }
