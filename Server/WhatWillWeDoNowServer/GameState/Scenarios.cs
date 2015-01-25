@@ -32,6 +32,7 @@ namespace WhatWillWeDoNowServer.GameState
             AddScenario(dictionary, new ScenarioT());
             AddScenario(dictionary, new ScenarioU());
             AddScenario(dictionary, new ScenarioV());
+            AddScenario(dictionary, new ScenarioX());
 
 
             return dictionary;
