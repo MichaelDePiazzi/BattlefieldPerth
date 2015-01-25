@@ -58,7 +58,8 @@ namespace WhatWillWeDoNowServer.GameState
 
         private void Update(object sender, ElapsedEventArgs e)
         {
-            CheckForTimeouts();
+            if (_gameState == GameState.InProgress)
+                CheckForTimeouts();
 
             if ((_gameState == GameState.GameOver) && (DateTime.Now >= _resetGameAt))
                 ResetGame();
@@ -148,10 +149,11 @@ namespace WhatWillWeDoNowServer.GameState
             if (!IsValidPlayerId(playerNumber))
                 return;
 
+            var player = Players[playerNumber - 1];
+            player.LastRequest = DateTime.Now;
+
             if ((choiceNumber < 0) || (choiceNumber > 3))
                 return;
-
-            var player = Players[playerNumber - 1];
 
             if (player.HasMadeChoice)
                 return;
@@ -168,9 +170,6 @@ namespace WhatWillWeDoNowServer.GameState
 
         private void CheckChoices()
         {
-            if (_gameState != GameState.InProgress)
-                return;
-
             if (Players.Any(p => p.IsAlive && !p.HasMadeChoice))
                 return;
 
