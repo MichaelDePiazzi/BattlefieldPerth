@@ -11,7 +11,7 @@ namespace WhatWillWeDoNowServer.GameState
         public static GameStateManager Instance = new GameStateManager();
 
         public const int PlayerTimeout = 10;
-        public const int GameOverTimeout = 5;
+        public const int GameOverTimeout = 20;
 
         private readonly Dictionary<string, Scenario> _scenarios;
         public IList<Player> Players { get; set; }
