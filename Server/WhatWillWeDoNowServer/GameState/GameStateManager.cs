@@ -17,7 +17,15 @@ namespace WhatWillWeDoNowServer.GameState
         public IList<Player> Players { get; set; }
 
         public string CurrentScenarioKey { get; set; }
-        public Scenario CurrentScenario { get { return _scenarios[CurrentScenarioKey]; } }
+        public Scenario CurrentScenario
+        {
+            get
+            {
+                if (!_scenarios.ContainsKey(CurrentScenarioKey))
+                    return null;
+                return _scenarios[CurrentScenarioKey];
+            }
+        }
 
         public string UpdateText { get; set; }
 
@@ -160,6 +168,9 @@ namespace WhatWillWeDoNowServer.GameState
 
         private void CheckChoices()
         {
+            if (_gameState != GameState.InProgress)
+                return;
+
             if (Players.Any(p => p.IsAlive && !p.HasMadeChoice))
                 return;
 

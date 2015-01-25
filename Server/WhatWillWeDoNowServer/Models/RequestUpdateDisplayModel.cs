@@ -23,10 +23,13 @@ namespace WhatWillWeDoNowServer.Models
         {
             Countdown = 60;//TODO
             var scenario = gameStateManager.CurrentScenario;
-            ImageIndex = scenario.ImageIndex;
-            Title = scenario.Title;
+            if (scenario != null)
+            {
+                ImageIndex = scenario.ImageIndex;
+                Title = scenario.Title;
+                TextNewScenario = scenario.Text;
+            }
             TextUpdate = gameStateManager.UpdateText;
-            TextNewScenario = scenario.Text;
             PlayerNames = gameStateManager.Players.Select(p => p.Name);
             CharacterHp = gameStateManager.Players.Select(p => p.HitPoints);
             CharacterResponded = gameStateManager.Players.Select(p => p.HasMadeChoice);
