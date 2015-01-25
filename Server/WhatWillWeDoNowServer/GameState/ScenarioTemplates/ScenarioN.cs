@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 
 namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
 {
@@ -9,13 +9,13 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             Id = "N";
             Title = "Maylands Golf Course";
             ImageIndex = (int)GameState.ImageIndex.ScenarioN;
-            Text = "Sneaking into the back of Hyde park, your group races across the open terrain trying to find cover. Ducking into the trees near the lake to catch your breath you scan the area for any threats. Just when you exhale thinking you have some time to catch your thoughts, the water begins to bubble and hiss, as a gargantuan tentacle bursts out of the water and races towards the group.";
+            Text = "Racing to the country club you hide inside looking for a place to fortify. The Aliens are closing in your position, and preparing to attack. The Aliens split into small squads, and begin closing in on the country club.";
             Choices = new[]
                 {
-                    "Scatter and avoid it",
-                    "Try and overpower it",
-                    "Head back to the street",
-                    "Use someone else as bait"
+                    "Fight with anything you can",
+                    "Look for an escape outside",
+                    "Search the club for a way out",
+                    "Sit at the Bar"
                 };
             Outcomes = new[]
                 {
@@ -23,7 +23,6 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
                     CreateOutcome2(),
                     CreateOutcome3(),
                     CreateOutcome4()
-
                 };
         }
 
@@ -32,15 +31,12 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             return new Outcome
             {
                 IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.A) > (players.Count(p => p.SelectedChoice == Choice.B)) + (players.Count(p => p.SelectedChoice == Choice.C))),
+                    (players.Count(p => p.SelectedChoice == Choice.A) >= players.Count(p => p.SelectedChoice == Choice.B) + players.Count(p => p.SelectedChoice == Choice.C)),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
-                    var damagedPlayers = GameStateManager.DamagePlayers(players,
-                        player => (player.SelectedChoice == Choice.B));
-
-                    return "The team scatters and flees around the lake, dodging the tentacle as it swings at you. Anyone trying to fight gets knocked away, but is able to stand and run with the rest of the team away towards Mount Lawley.";
+                    return "You look through the club rooms, and all you can find to defend yourself are golf clubs. Using the pool chalk from the bar, you paint your faces with blue war paint. You shout out loud as you rush them all with your improvised weapons, shouting something about lives and freedom. You are killed quickly afterwards, as your bodies are riddled with flechettes.";
                 },
-                NextScenarioKey = "Q"
+                NextScenarioKey = "X"
             };
         }
 
@@ -49,17 +45,12 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             return new Outcome
             {
                 IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.B) >= (players.Count(p => p.SelectedChoice == Choice.A)) + (players.Count(p => p.SelectedChoice == Choice.C))),
+                    (players.Count(p => p.SelectedChoice == Choice.B) >= players.Count(p => p.SelectedChoice == Choice.A) + players.Count(p => p.SelectedChoice == Choice.C)),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
-                    var count =players.Count(p => p.SelectedChoice == Choice.B);
-                    for (int i = count; i < 3;i++)
-                    {GameStateManager.DamagePlayers(players, player => true);}
-                    
-                    
-                    return "The group dives onto the tentacle and attacks it with anything they have at hand, rocks, sticks and knives smash into the appendage until it retreats under the water. Everyone takes stock of their injuries, and staggers towards Mount Lawley.";
+                    return "Racing outside, you see a large cruiser boat floating the river. You all race to it and dive aboard. Starting the engine, you send the boat up stream. Heading up the Swan River into the valley, you think you can find enough food to eat, places to hide and weapons to fight back.";
                 },
-                NextScenarioKey = "Q"
+                NextScenarioKey = "U"
             };
         }
 
@@ -68,14 +59,12 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             return new Outcome
             {
                 IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.C) > (players.Count(p => p.SelectedChoice == Choice.A)) + (players.Count(p => p.SelectedChoice == Choice.B))),
+                    (players.Count(p => p.SelectedChoice == Choice.C) >= players.Count(p => p.SelectedChoice == Choice.A) + players.Count(p => p.SelectedChoice == Choice.B)),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
-                    var damagedPlayers = GameStateManager.DamagePlayers(players,
-                        player => (player.SelectedChoice == Choice.B));
-                    return "The group turns and runs, anyone who hesitates gets smacked in the face by the tentacle and falls to the ground. Running back to the roads, someone spots a four wheel drive, that looks like it will be driveable. You all bundle into the car and drive off towards the WACA.";
+                    return "You search through the locker rooms, and find many keys left in the lockers you bust open.  You head to the private car park and find sports cars, Humvees and other vehicles. Siphoning all the fuel you can, you all bundle into a car each, and head down the Freeway as fast as you can. Down south seems like a nice a place as anywhere to spend your…. Final Days.";
                 },
-                NextScenarioKey = "R"
+                NextScenarioKey = "T"
             };
         }
 
@@ -89,16 +78,10 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
                     (players.Count(p => p.SelectedChoice == Choice.C) == 0),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
-                     var damagedPlayer = GameStateManager.GetRandomPlayer(players.Where(p => p.IsAlive));
-                        damagedPlayer.HitPoints -= 3;
-
-                    return "Everyone panics, and pushes each person forward into the path of the tentacle. The tentacle wraps around (Random Player), and they are pulled under water never to seen again. The rest of the group runs back to the roads, someone spots a four wheel drive, that looks like it will be driveable. You all bundle into the car and drive off towards the WACA.";
+                    return "Sitting down and resigning to your fate, you pour out some drinks for anyone left alive. You all knock back the scotch, and start a game of pool, waiting for the invaders to come and find you.  A loud hissing noise fills the area, scanning the skies a swarm of flying insects fills the sky from the South, they swarm into the building hunting down anything they can. They fly into you tearing through your bodies, as you fall to the ground, they swarm all over you, and feast on your flesh.";
                 },
-                NextScenarioKey = "R"
+                NextScenarioKey = "X"
             };
         }
-
-       
-   
     }
 }
