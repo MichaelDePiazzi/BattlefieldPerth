@@ -31,7 +31,7 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             return new Outcome
             {
                 IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.A) > (players.Count(p => p.SelectedChoice == Choice.B)) + (players.Count(p => p.SelectedChoice == Choice.C)))
+                    (players.Count(p => p.SelectedChoice == Choice.A) >= (players.Count(p => p.SelectedChoice == Choice.B)) + (players.Count(p => p.SelectedChoice == Choice.C)))
                     ,
                 ActionOutcomeAndGetDisplayText = players =>
                 {
@@ -53,7 +53,7 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             return new Outcome
             {
                 IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.B) > players.Count(p => p.SelectedChoice == Choice.A) + players.Count(p => p.SelectedChoice == Choice.C)),
+                    (players.Count(p => p.SelectedChoice == Choice.B) >= players.Count(p => p.SelectedChoice == Choice.A) + players.Count(p => p.SelectedChoice == Choice.C)),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
                     var damagedPlayers = GameStateManager.DamagePlayers(players,
@@ -69,7 +69,7 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             return new Outcome
             {
                 IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.C) > players.Count(p => p.SelectedChoice == Choice.A) + players.Count(p => p.SelectedChoice == Choice.B)),
+                    (players.Count(p => p.SelectedChoice == Choice.C) >= players.Count(p => p.SelectedChoice == Choice.A) + players.Count(p => p.SelectedChoice == Choice.B)),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
                     var damagedPlayers = GameStateManager.DamagePlayers(players,
