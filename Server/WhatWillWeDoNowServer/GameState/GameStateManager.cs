@@ -195,14 +195,14 @@ namespace WhatWillWeDoNowServer.GameState
             _resetGameAt = DateTime.Now.AddSeconds(GameOverTimeout);
         }
 
-        public static List<Player> DamagePlayers(IList<Player> players, Func<Player, bool> isDamaged)
+        public static List<Player> DamagePlayers(IList<Player> players, Func<Player, bool> isDamaged, int damage = 1)
         {
             var damagedPlayers = new List<Player>();
             foreach (var player in players.Where(p => p.IsAlive))
             {
                 if (isDamaged(player))
                 {
-                    player.HitPoints--;
+                    player.HitPoints -= damage;
                     damagedPlayers.Add(player);
                 }
             }
