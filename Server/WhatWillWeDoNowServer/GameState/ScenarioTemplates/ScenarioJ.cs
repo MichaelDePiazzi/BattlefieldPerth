@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 
 namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
 {
@@ -7,41 +7,37 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
         public ScenarioJ()
         {
             Id = "J";
-            Title = "Carilion Centre";
+            Title = "Carillon";
             ImageIndex = (int)GameState.ImageIndex.ScenarioJ;
-            Text = "The green cactus art lies in front of you as you approach Forrest Chase. It looks like it now fits in amongst the alien structures that now fill the outdoor area. As you walk through the structures you see entombed humans inside the new structures, and small insectiod larvae slowly consuming them for food. A pack of alien guards walk through the chase. A CAT bus sits in the road, which looks like it could still be in working condition.";
+            Text = "Approaching the arcade that runs between the malls, you head into the buildings before you are spotted by anything else. The lights in the mall flicker and make the whole area feel claustrophobic. You walk through the stores and everything seems quiet, possibly too quiet.";
             Choices = new[]
                 {
-                    "Make for The Bus",
-                    "Sneak Into Myer",
-                    "Attack the Aliens",
-                    "Hide from the Danger"
+                    "Walk carefully though",
+                    "Rush through as fast as you can",
+                    "Don't enter the mall",
+                    "Face your fear and walk through"
                 };
             Outcomes = new[]
                 {
                     CreateOutcome1(),
                     CreateOutcome2(),
                     CreateOutcome3(),
-                    CreateOutcome4(),
+                    CreateOutcome4()
                 };
         }
 
         private static Outcome CreateOutcome1()
         {
             return new Outcome
-            {
-                IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.C) > 1) &&
-                    (players.Count(p => p.SelectedChoice == Choice.C) < 4),
-                ActionOutcomeAndGetDisplayText = players =>
                 {
-                    var damagedPlayers = GameStateManager.DamagePlayers(players,
-                        player => true);
-
-                    return "The bravest of you collect what you can, and step behind the green cactus. Waiting for the patrol to move into a position to launch and ambush on them. The fight is a struggle but eventually you overcome them. The whole group has injuries, as they head into Myer.";
-                },
-                NextScenarioKey = "M"
-            };
+                    IsActive = players =>
+                        (players.Count(p => p.SelectedChoice == Choice.A) >= players.Count(p => p.SelectedChoice == Choice.B) + players.Count(p => p.SelectedChoice == Choice.C)),
+                    ActionOutcomeAndGetDisplayText = players =>
+                    {
+                        return "You walk through the front of the mall, and slowly creep towards the other end. Jumping at shadows and flickering lights. The oppressive atmosphere makes you all sweat in terror, and the slightest noise makes you flinch. Surprisingly you make your way through the mall unscathed, except the bruises on your fragile psyche. You look up in front of you at Enex 100.";
+                    },
+                    NextScenarioKey = "M"
+                };
         }
 
         private static Outcome CreateOutcome2()
@@ -49,12 +45,10 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             return new Outcome
             {
                 IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.C) > 4) ,
+                    (players.Count(p => p.SelectedChoice == Choice.B) > players.Count(p => p.SelectedChoice == Choice.A) + players.Count(p => p.SelectedChoice == Choice.C)),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
-                    var damagedPlayer = GameStateManager.GetRandomPlayer(players.Where(p => p.IsAlive));
-                        damagedPlayer.HitPoints -= 1;
-                    return "The group as a whole get ready to jump the patrol of the three alien guards. You leap from behind the cactus and knock them all to the ground. Digging into the savage nature of the human condition, you mercilessly attack the prone aliens until their bodies lie twitching. One of you has a minor injury sustained in the melee. You wipe the ichor off your hands and walk into Myer.";
+                    return "Preparing yourselves you break into a sprint, pushing through the fear and running through the mall, you race past shops and up and down stalled escalators. The run takes less than a minute, but feels like an hour. Sweat from sprinting and sweat from nerves drip from your pores. You race out the other side, and stop to catch your breath in front of Enex 100.";
                 },
                 NextScenarioKey = "M"
             };
@@ -65,12 +59,11 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             return new Outcome
             {
                 IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.A) > (players.Count(p => p.SelectedChoice == Choice.B)) + (players.Count(p => p.SelectedChoice == Choice.C))),
+                    (players.Count(p => p.SelectedChoice == Choice.C) > players.Count(p => p.SelectedChoice == Choice.B) + players.Count(p => p.SelectedChoice == Choice.A)),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
-                    var damagedPlayers = GameStateManager.DamagePlayers(players,
-                        player => (player.SelectedChoice == Choice.B) || (player.SelectedChoice == Choice.C));
-                    return "You run into the bus, and find the keys in the ignition, turning them slowly, the whole machine shudders to life. The noise of the bus starting up alerts the alien Guards, and they turn and fire their flechette weapons at the last of you getting onto the bus. The driver of the bus drops the pedal to the floor, and breaks through the rubble on the road, and heads towards Mount Lawley.";
+                    GameStateManager.DamagePlayers(players, player => true);
+                    return "The fear is too much for you, and you turn away and head away from the plaza, and up the mall. Keeping to the sides, and as hidden as possible. While working towards the east, a hissing noise breaks the silence. A device flies out from the inside of a planter, and explodes with a concussive blast, knocking everyone into the walls. Shouts from alien guards can be heard from the direction you came from, you dust yourselves off and run from the noise. You duck into an underground car park. Before you are three motor bikes, in working condition. You saddle up, and race out, heading through Maylands, and towards the golf course.";
                 },
                 NextScenarioKey = "N"
             };
@@ -81,12 +74,12 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             return new Outcome
             {
                 IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.B) > 0) &&
                     (players.Count(p => p.SelectedChoice == Choice.A) == 0) &&
+                    (players.Count(p => p.SelectedChoice == Choice.B) == 0) &&
                     (players.Count(p => p.SelectedChoice == Choice.C) == 0),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
-                    return "Everyone keeps low and sneaks into Myer. The aliens don't notice your presence and you enter into the store without any incident.";
+                    return "Stepping up, you walk with your head held high, maybe you have accepted your fate, maybe you just don't care anymore. Fortunately, no aliens have taken up position in here, and you walk through without incident. You stand in front of Enex 100, and thank your stars, you don't think your luck will hold out like that again.";
                 },
                 NextScenarioKey = "M"
             };
