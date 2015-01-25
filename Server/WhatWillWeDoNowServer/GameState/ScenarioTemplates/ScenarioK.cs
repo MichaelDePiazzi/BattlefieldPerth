@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 
 namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
 {
@@ -9,13 +9,13 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             Id = "K";
             Title = "Maylands";
             ImageIndex = (int)GameState.ImageIndex.ScenarioK;
-            Text = "Sneaking into the back of Hyde park, your group races across the open terrain trying to find cover. Ducking into the trees near the lake to catch your breath you scan the area for any threats. Just when you exhale thinking you have some time to catch your thoughts, the water begins to bubble and hiss, as a gargantuan tentacle bursts out of the water and races towards the group.";
+            Text = "The Maylands café strip lies abandoned, apart from dead bodies lying in the street. Small groups of aliens walk down the roads, carelessly someone steps out into view and the aliens shout out to each other. More groups come into view, drawn here by the shouting. You're heavily outnumbered and outgunned.";
             Choices = new[]
                 {
-                    "Scatter and avoid it",
-                    "Try and overpower it",
-                    "Head back to the street",
-                    "Use someone else as bait"
+                    "Fight a last stand",
+                    "Flee on foot",
+                    "Look for a vehicle",
+                    "Surrender"
                 };
             Outcomes = new[]
                 {
@@ -23,25 +23,24 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
                     CreateOutcome2(),
                     CreateOutcome3(),
                     CreateOutcome4()
-
                 };
         }
 
         private static Outcome CreateOutcome1()
         {
             return new Outcome
-            {
-                IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.A) > (players.Count(p => p.SelectedChoice == Choice.B)) + (players.Count(p => p.SelectedChoice == Choice.C))),
-                ActionOutcomeAndGetDisplayText = players =>
                 {
-                    var damagedPlayers = GameStateManager.DamagePlayers(players,
-                        player => (player.SelectedChoice == Choice.B));
+                    IsActive = players =>
+                        (players.Count(p => p.SelectedChoice == Choice.A) >= players.Count(p => p.SelectedChoice == Choice.B) + players.Count(p => p.SelectedChoice == Choice.C) + players.Count(p => p.SelectedChoice == Choice.D)),
+                    ActionOutcomeAndGetDisplayText = players =>
+                    {
+                        for (int i = 0; i < 3; i++)
+                            GameStateManager.DamagePlayers(players, player => true);
 
-                    return "The team scatters and flees around the lake, dodging the tentacle as it swings at you. Anyone trying to fight gets knocked away, but is able to stand and run with the rest of the team away towards Mount Lawley.";
-                },
-                NextScenarioKey = "N"
-            };
+                        return "It's time, this is now the final stand. You prepare what you have, and hunker down. The first pack of guards walk in, and you ambush them, bludgeoning them to death, and taking their weapons.  You hold out for some time, using the alien weapons against them. The flechettes they fire burst inside the creatures, dropping them quickly. After an a long fight, they stop charging the café you have fortified. You risk a look out the window, and five floating missiles fly towards the building, they smash through the windows and explode in the room, filling it with acidic gas. Your skin strips from your flesh, and your flesh melts from your bones.";
+                    },
+                    NextScenarioKey = "X"
+                };
         }
 
         private static Outcome CreateOutcome2()
@@ -49,15 +48,18 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             return new Outcome
             {
                 IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.B) >= (players.Count(p => p.SelectedChoice == Choice.A)) + (players.Count(p => p.SelectedChoice == Choice.C))),
+                    (players.Count(p => p.SelectedChoice == Choice.B) > players.Count(p => p.SelectedChoice == Choice.A) + players.Count(p => p.SelectedChoice == Choice.C)),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
-                    var count =players.Count(p => p.SelectedChoice == Choice.B);
-                    for (int i = count; i < 3;i++)
-                    {GameStateManager.DamagePlayers(players, player => true);}
-                    
-                    
-                    return "The group dives onto the tentacle and attacks it with anything they have at hand, rocks, sticks and knives smash into the appendage until it retreats under the water. Everyone takes stock of their injuries, and staggers towards Mount Lawley.";
+                    var damagedPlayers = GameStateManager.DamagePlayers(players, player => player.SelectedChoice == Choice.A ||  player.SelectedChoice == Choice.D);
+
+                    string extraText = "";
+                    // if players were damaged, add more text
+                    if (damagedPlayers.Count > 0)
+                        extraText = GameStateManager.GetPlayerNames(damagedPlayers) + " runs through a cloud of acid and are burnt badly. ";
+
+                    return "Running together you all head the only way you can, toward the Maylands golf course. Floating seeker missiles fly through the air and burst into clouds of acid in front of you. " +
+                        extraText + "You arrive at the golf course, and take refuge in the club house.";
                 },
                 NextScenarioKey = "N"
             };
@@ -68,12 +70,18 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             return new Outcome
             {
                 IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.C) > (players.Count(p => p.SelectedChoice == Choice.A)) + (players.Count(p => p.SelectedChoice == Choice.B))),
+                    (players.Count(p => p.SelectedChoice == Choice.C) > players.Count(p => p.SelectedChoice == Choice.B) + players.Count(p => p.SelectedChoice == Choice.A)),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
-                    var damagedPlayers = GameStateManager.DamagePlayers(players,
-                        player => (player.SelectedChoice == Choice.B));
-                    return "The group turns and runs, anyone who hesitates gets smacked in the face by the tentacle and falls to the ground. Running back to the roads, someone spots a four wheel drive, that looks like it will be driveable. You all bundle into the car and drive off towards the WACA.";
+                    var damagedPlayers = GameStateManager.DamagePlayers(players, player => player.SelectedChoice == Choice.A || player.SelectedChoice == Choice.D);
+
+                    string extraText = "";
+                    // if players were damaged, add more text
+                    if (damagedPlayers.Count > 0)
+                        extraText = GameStateManager.GetPlayerNames(damagedPlayers) + " breath in the gas, and start coughing blood. ";
+
+                    return "Frantically searching, you find a garbage truck that is still in running condition. Packing everyone into the cab, you fire it up and start making a break for it. Crushing a pack a guards as your round a corner, they signal just before they die, and 3 seeker missiles float into view. They fly in front of the truck and explode into clouds of acid. " +
+                        extraText + "You keep driving, the truck barely holding  together with the acid damage. You arrive in Vic Park, as the engine shudders to a halt.";
                 },
                 NextScenarioKey = "O"
             };
@@ -89,16 +97,13 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
                     (players.Count(p => p.SelectedChoice == Choice.C) == 0),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
-                     var damagedPlayer = GameStateManager.GetRandomPlayer(players.Where(p => p.IsAlive));
-                        damagedPlayer.HitPoints -= 3;
+                    for (int i = 0; i < 3; i++ )
+                        GameStateManager.DamagePlayers(players, player => true);
 
-                    return "Everyone panics, and pushes each person forward into the path of the tentacle. The tentacle wraps around (Random Player), and they are pulled under water never to seen again. The rest of the group runs back to the roads, someone spots a four wheel drive, that looks like it will be driveable. You all bundle into the car and drive off towards the WACA.";
+                    return "You give up, you all walk into the street with your hands in the air. The closest alien looks towards you, confused at the concept. Before you can react, he levels his weapon, and sprays flechettes into all of your bodies. The pain as they bore deep into your body is immense, but thankfully short, as they explode and tear your bodies to pieces.";
                 },
-                NextScenarioKey = "O"
+                NextScenarioKey = "X"
             };
         }
-
-       
-   
     }
 }

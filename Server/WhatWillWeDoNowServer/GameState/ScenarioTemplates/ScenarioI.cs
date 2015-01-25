@@ -12,10 +12,10 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             Text = "Walking through the streets of East Perth, you can hear a loud humming from somewhere unseen. As you approach the noise, the smell of ozone and burning metal fills the air. Rounding the corner, a massive triangular sculpture rises from a roundabout, filled with lightning, arcing off whenever anything gets close.";
             Choices = new[]
                 {
-                    "Try to disable the device",
-                    "Try to sneak past",
-                    "Turn around and leave",
-                    "Hide Behind another Person"
+                    "Try to disable the craft",
+                    "Look for a car",
+                    "Try to save the people",
+                    "Pretend you see nothing and leave"
                 };
             Outcomes = new[]
                 {
@@ -31,13 +31,13 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             return new Outcome
                 {
                     IsActive = players =>
-                        (players.Count(p => p.SelectedChoice == Choice.A) > (players.Count(p => p.SelectedChoice == Choice.B) + (players.Count(p => p.SelectedChoice == Choice.C)))),
+                        (players.Count(p => p.SelectedChoice == Choice.A) >= (players.Count(p => p.SelectedChoice == Choice.B) + (players.Count(p => p.SelectedChoice == Choice.C)))),
                     ActionOutcomeAndGetDisplayText = players =>
                     {
-                        GameStateManager.DamagePlayers(players, player => (player.SelectedChoice == Choice.B));
-                        return "You start to throw debris and other objects towards the sparking tower, and as they fly close to the triangle, giant flashes of energy streak out and vaporise the projectiles in the air. One of you gets the bright idea of driving a car into the base of the tower. Starting at the top of the hill, you start the wreck rolling down the hill, and manage to steer it towards the base of the tower. The driver bails out of the car and lands safely at the edge of the road. The car smashes into the base of the tower, as lightning strikes at it continuously. The impact causes the whole structure to topple and fall to the side, inactive. Anyone standing to close gets a shock from the residual energy burning them badly. The team walks north, and heads towards Mount Lawley.";
+                        
+                        return "You look for anything you could use dent the craft, but your search is fruitless. As you prepare to give up and turn to leave, you find a badly wounded soldier hiding behind some chairs. He can barely speak but he points to his grenades, and those on the other soldiers corpses nearby. You collect as many as you can, and hand them to the dying man. He crawls into the open, and a tentacle from the ship lashes out and grabs him. He pulls the pins on all of the explosives as he is dragged towards the maw. Seconds after he is consumed, an explosion from inside the craft can be heard. Green blood flows from the orifices on the ship, as it crashes to the ground. During the confusion, you circle round the field, and cross the causeway to Burswood.";
                     },
-                    NextScenarioKey = "K"
+                    NextScenarioKey = "L"
                 };
         }
 
@@ -50,14 +50,14 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
                 ActionOutcomeAndGetDisplayText = players =>
                 {
                     var damagedPlayers = GameStateManager.DamagePlayers(players,
-                        player => player.SelectedChoice == Choice.A || player.SelectedChoice == Choice.C);
+                        player => player.SelectedChoice == Choice.A );
 
                     string extraText = "";
                     // if players were damaged, add more text
                     if (damagedPlayers.Count > 0)
-                        extraText = GameStateManager.GetPlayerNames(damagedPlayers) + " stray too close and get a shock from the tower, causing painful burns.* After making it past, You head towards Mount Lawley";
+                        extraText = GameStateManager.GetPlayerNames(damagedPlayers) ;
 
-                    return "Staying away from the energy tower seems like the best course of action, however your destination is past it. While experimenting with the range of the device, you think you can sneak around the device by staying out of range. Walking between buildings and around the alleyways, you make it most of the way around. The last hurdle is sliding along a wall, keeping as far as you can from the energy. " + extraText;
+                    return "Checking the large car park, you look for any vehicle that is in working condition. Most are damaged, but you find two small cars that will still run. You clamber into them and begin driving away. As you are driving to the north, a small missile launches into the air and begins tracking one of the two cars. You floor the gas and drive to avoid the missile. The weapon flies over the top of the car and explodes in a shower of acid. " + extraText + " are in the car as it swerves across the road, everyone inside is battered and bruised. You continue driving towards Maylands. ";
                 },
                 NextScenarioKey = "K"
             };
@@ -71,15 +71,8 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
                     (players.Count(p => p.SelectedChoice == Choice.C) > (players.Count(p => p.SelectedChoice == Choice.A) + (players.Count(p => p.SelectedChoice == Choice.B)))),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
-                    var damagedPlayers = GameStateManager.DamagePlayers(players,
-                        player => player.SelectedChoice == Choice.A || player.SelectedChoice == Choice.B);
-
-                     string extraText = "";
-                    // if players were damaged, add more text
-                     if (damagedPlayers.Count > 0)
-                         extraText = GameStateManager.GetPlayerNames(damagedPlayers) + "stray too close during their investigations, and get shocked by the tower. ";
-
-                     return "The lightning tower is an intimidating sight, and you decide it is insurmountable. " + extraText + "Everyone turns and walks back the up the hill and towards the WACA";
+                    GameStateManager.DamagePlayers(players, player => true, 2);
+                    return "Bravado is the name of the game today, finding where the aliens are dragging the prisoners from, you prepare to launch a foolish, but brave rescue attempt. Hiding behind some seats, you surround the  guards and jump out at the same time, leaping at them with any weapons you can find. These guards seem to be larger and stronger, with better equipment than any other you have encountered yet. The fight is brutal, and you are overpowered easily. Anyone who survives turns and runs, and the guards don't give chase. You slowly walk over the causeway, towards Burswood casino.";
                 },
                 NextScenarioKey = "L"
             };
@@ -95,9 +88,13 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
                     (players.Count(p => p.SelectedChoice == Choice.C) == 0),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
-                    return "Everyone nervously looks around, hanging back, trying to stay further back than any other person. " + players[0].Name + " throws their hands in the air and exclaims, \"Screw this shit, let's go another way\". Nods of agreement start from the rest of the group, as you all turn and head towards the WACA.";
+
+                    var damagedPlayer = GameStateManager.GetRandomPlayer(players.Where(p => p.IsAlive));
+                    damagedPlayer.HitPoints -= 1;
+
+                    return "Looking around, no one wants to intercede, as the position is well fortified, and looks hopeless. As a group, you turn and walk away from the oval. Silence hangs heavy over the whole group, as everything feels hopeless." + damagedPlayer.Name + " Punches a tree in frustration, as anger and rage overtake them. The tree is stronger than expected, and the punch was backed with emotion, breaking their hand. Quietly you continue towards Maylands. ";
                 },
-                NextScenarioKey = "L"
+                NextScenarioKey = "K"
             };
         }
 
