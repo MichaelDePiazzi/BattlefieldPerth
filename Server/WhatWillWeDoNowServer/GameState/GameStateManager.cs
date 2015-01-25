@@ -134,6 +134,9 @@ namespace WhatWillWeDoNowServer.GameState
 
         public void MakeChoice(int playerNumber, int choiceNumber)
         {
+            if (_gameState != GameState.InProgress)
+                return;
+
             if (!IsValidPlayerId(playerNumber))
                 return;
 
