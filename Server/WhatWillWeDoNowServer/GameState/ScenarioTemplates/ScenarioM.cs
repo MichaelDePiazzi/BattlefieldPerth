@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 
 namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
 {
@@ -9,13 +9,13 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             Id = "M";
             Title = "Enex 100";
             ImageIndex = (int)GameState.ImageIndex.ScenarioM;
-            Text = "The green cactus art lies in front of you as you approach Forrest Chase. It looks like it now fits in amongst the alien structures that now fill the outdoor area. As you walk through the structures you see entombed humans inside the new structures, and small insectiod larvae slowly consuming them for food. A pack of alien guards walk through the chase. A CAT bus sits in the road, which looks like it could still be in working condition.";
+            Text = "Entry into the building is easy, as the doors have been smashed completely. People lie dead in the halls but there is no activity you can see. The building makes a small amount of noise, it seems as if the generators are still running. Lights are on and the elevators are working.";
             Choices = new[]
                 {
-                    "Make for The Bus",
-                    "Sneak Into Myer",
-                    "Attack the Aliens",
-                    "Hide from the Danger"
+                    "Try and go up to the offices",
+                    "Leave the building to the south",
+                    "Head to the Parking Bay",
+                    "Loot the building"
                 };
             Outcomes = new[]
                 {
@@ -31,16 +31,15 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             return new Outcome
             {
                 IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.C) > 1) &&
-                    (players.Count(p => p.SelectedChoice == Choice.C) < 4),
+                        (players.Count(p => p.SelectedChoice == Choice.A) >= (players.Count(p => p.SelectedChoice == Choice.B) + (players.Count(p => p.SelectedChoice == Choice.C)))),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
                     var damagedPlayers = GameStateManager.DamagePlayers(players,
                         player => true);
 
-                    return "The bravest of you collect what you can, and step behind the green cactus. Waiting for the patrol to move into a position to launch and ambush on them. The fight is a struggle but eventually you overcome them. The whole group has injuries, as they head into Myer.";
+                    return "You need a security card to get into the lifts, looking around you find the corpse of a guard, with his card in hand. You take the card, and try it. It grants access to all the floors, so you take a stab and go to the top level. No one is around, and there is food aplenty in the supermarket downstairs and this place is about as secure as you can get in the city. You hunker down, and convert some offices into sleeping quarters. Let's see how long we can survive.";
                 },
-                NextScenarioKey = "P"
+                NextScenarioKey = "S"
             };
         }
 
@@ -49,14 +48,14 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             return new Outcome
             {
                 IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.C) > 4) ,
+                        (players.Count(p => p.SelectedChoice == Choice.A) >= (players.Count(p => p.SelectedChoice == Choice.B) + (players.Count(p => p.SelectedChoice == Choice.C)))),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
                     var damagedPlayer = GameStateManager.GetRandomPlayer(players.Where(p => p.IsAlive));
                         damagedPlayer.HitPoints -= 1;
-                    return "The group as a whole get ready to jump the patrol of the three alien guards. You leap from behind the cactus and knock them all to the ground. Digging into the savage nature of the human condition, you mercilessly attack the prone aliens until their bodies lie twitching. One of you has a minor injury sustained in the melee. You wipe the ichor off your hands and walk into Myer.";
+                    return "You walk through the building, and head onto St Georges Terrace. As you cross the street heading for the esplanade. A loud hissing noise fills the area, scanning the skies a swarm of flying insects fills the sky from the East, then swarm down the terrace. They fly into you tearing through your bodies, as you fall to the ground, they swarm all over you, and feast on your flesh.";
                 },
-                NextScenarioKey = "P"
+                NextScenarioKey = "X"
             };
         }
 
@@ -65,14 +64,14 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             return new Outcome
             {
                 IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.A) > (players.Count(p => p.SelectedChoice == Choice.B)) + (players.Count(p => p.SelectedChoice == Choice.C))),
+                         (players.Count(p => p.SelectedChoice == Choice.A) >= (players.Count(p => p.SelectedChoice == Choice.B) + (players.Count(p => p.SelectedChoice == Choice.C)))),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
                     var damagedPlayers = GameStateManager.DamagePlayers(players,
                         player => (player.SelectedChoice == Choice.B) || (player.SelectedChoice == Choice.C));
-                    return "You run into the bus, and find the keys in the ignition, turning them slowly, the whole machine shudders to life. The noise of the bus starting up alerts the alien Guards, and they turn and fire their flechette weapons at the last of you getting onto the bus. The driver of the bus drops the pedal to the floor, and breaks through the rubble on the road, and heads towards Mount Lawley.";
+                    return "You head into the parking bay, and the cars are all untouched. Sports cars, Humvees and other vehicles. Siphoning all the fuel you can, you all bundle into a car each, and head down the Freeway as fast as you can. Down south seems like a nice a place as anywhere to spend your…. Final Days.";
                 },
-                NextScenarioKey = "Q"
+                NextScenarioKey = "T"
             };
         }
 
@@ -81,14 +80,14 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
             return new Outcome
             {
                 IsActive = players =>
-                    (players.Count(p => p.SelectedChoice == Choice.B) > 0) &&
                     (players.Count(p => p.SelectedChoice == Choice.A) == 0) &&
+                    (players.Count(p => p.SelectedChoice == Choice.B) == 0) &&
                     (players.Count(p => p.SelectedChoice == Choice.C) == 0),
                 ActionOutcomeAndGetDisplayText = players =>
                 {
-                    return "Everyone keeps low and sneaks into Myer. The aliens don't notice your presence and you enter into the store without any incident.";
+                    return "Looking round, electronics and food are there for the taking, you all fill your bags, and head to the South Entrance, onto St. Georges Terrace.  As you cross the street heading for the esplanade. A loud hissing noise fills the area, scanning the skies a swarm of flying insects fills the sky from the East, then swarm down the terrace. They fly into you tearing through your bodies, as you fall to the ground, they swarm all over you, and feast on your flesh.";
                 },
-                NextScenarioKey = "P"
+                NextScenarioKey = "X"
             };
         }
 
