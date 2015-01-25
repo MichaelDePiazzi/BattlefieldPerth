@@ -56,7 +56,9 @@ namespace WhatWillWeDoNowServer.GameState.ScenarioTemplates
                 {
                     var damagedPlayer = GameStateManager.GetRandomPlayer(players.Where(p => p.IsAlive));
                         damagedPlayer.HitPoints -= 1;
-                    return "The group as a whole get ready to jump the patrol of the three alien guards. You leap from behind the cactus and knock them all to the ground. Digging into the savage nature of the human condition, you mercilessly attack the prone aliens until their bodies lie twitching. One of you has a minor injury sustained in the melee. You wipe the ichor off your hands and walk into Myer.";
+                    return "The group as a whole get ready to jump the patrol of the three alien guards. You leap from behind the cactus and knock them all to the ground. Digging into the savage nature of the human condition, you mercilessly attack the prone aliens until their bodies lie twitching. " +
+                           damagedPlayer.Name +
+                           " has a minor injury sustained in the melee. You wipe the ichor off your hands and walk into Myer.";
                 },
                 NextScenarioKey = "G"
             };
