@@ -11,11 +11,11 @@ public class MainDisplay : MonoBehaviour {
 	private int twoThirdMarkHeight;
 
 	//declaration of Styles
-	private GUIStyle whatDoStyle;
-	private GUIStyle flavourTextStyle;
-	private GUIStyle playerBaseStyle;
-	private GUIStyle playerChosenStyle;
-	private GUIStyle playerDeadStyle;
+	public GUIStyle whatDoStyle;
+	public GUIStyle flavourTextStyle;
+	public GUIStyle playerBaseStyle;
+	public GUIStyle playerChosenStyle;
+	public GUIStyle playerDeadStyle;
 
 	//private int start = 0;  //test value 
 
@@ -45,9 +45,9 @@ public class MainDisplay : MonoBehaviour {
 
 
 		//GUI Element Styles
-		whatDoStyle = new GUIStyle();
-		whatDoStyle.alignment = TextAnchor.MiddleCenter;
-		whatDoStyle.fontSize = 48;
+//		whatDoStyle = new GUIStyle();
+//		whatDoStyle.alignment = TextAnchor.MiddleCenter;
+//		whatDoStyle.fontSize = 48;
 
 
 		flavourTextStyle = new GUIStyle ();

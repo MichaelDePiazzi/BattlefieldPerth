@@ -1,0 +1,803 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660 Ti (ID=0x1183)
+    Vendor:   NVIDIA
+    VRAM:     1989 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Users\salvation\Documents\TeamChoice\TC\TeamChoiceDisplayClient_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Users\salvation\Documents\TeamChoice\TC\TeamChoiceDisplayClient_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Users\salvation\Documents\TeamChoice\TC\TeamChoiceDisplayClient_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Users\salvation\Documents\TeamChoice\TC\TeamChoiceDisplayClient_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Users\salvation\Documents\TeamChoice\TC\TeamChoiceDisplayClient_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Users\salvation\Documents\TeamChoice\TC\TeamChoiceDisplayClient_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.036 seconds
+desktop: 1920x1200 59Hz; virtual: 1920x1200 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: E:\Users\salvation\Documents\TeamChoice\TC\TeamChoiceDisplayClient_Data\Managed\System.Core.dll (this message is harmless)
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Polling...
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Poll Successful: {"Countdown":60,"ImageIndex":1,"Title":"Alien Holding Pen","TextUpdate":"","TextNewScenario":"The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.","PlayerNames":[],"CharacterHp":[],"CharacterResponded":[]}
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Countdown 60
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+ImageIndex 1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Title Alien Holding Pen
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextUpdate 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+TextNewScenario The invasion started on the other side of the globe, it was fast and it was efficient. Major cities tumbled all across the globe - New York, London, Beijing, all occupied in the first days. The military was swift to respond, but were no match for The Invaders. We don't know why they captured some people, while others were just slaughtered. They found you alone, and took you to a pen, five claws of chitin tower upwards, erupting from under the ground, a thick membrane strung between them. Around you are five other prisoners, all with a spark of resistance in their eyes. A single invader stalks in a path around the pen, occasionally glancing at his captives. A section of the membrane looks like it was strung up hastily, and could be torn apart.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+

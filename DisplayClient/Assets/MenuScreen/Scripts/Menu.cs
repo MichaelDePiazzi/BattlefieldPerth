@@ -13,8 +13,9 @@ public class Menu : MonoBehaviour {
 
 	//public GUISkin skin;
 	private GUIStyle gameTitle;
-	private GUIStyle connectionInfo;
+	public GUIStyle connectionInfo;
 	private GUIStyle connectHow;
+	public GUIStyle connectedPlayers;	
 
 
 	public Texture backgroundTexture;
@@ -59,18 +60,18 @@ public class Menu : MonoBehaviour {
 		//GUI.skin = skin;
 
 		gameTitle = new GUIStyle ();
-		connectionInfo = new GUIStyle ();
+		//connectionInfo = new GUIStyle ();
 		connectHow = new GUIStyle ();
 
 		gameTitle.normal.textColor = Color.grey;
-		connectionInfo.normal.textColor = Color.red;
+		//connectionInfo.normal.textColor = Color.red;
 		connectHow.normal.textColor = Color.white;
 
 		gameTitle.fontSize = 48;
 		gameTitle.alignment = TextAnchor.MiddleCenter;
 
-		connectionInfo.fontSize = 32;
-		connectionInfo.alignment = TextAnchor.MiddleCenter;
+		//connectionInfo.fontSize = 32;
+		//connectionInfo.alignment = TextAnchor.MiddleCenter;
 
 		connectHow.fontSize = 32;
 		connectHow.alignment = TextAnchor.MiddleCenter;
@@ -87,10 +88,10 @@ public class Menu : MonoBehaviour {
 
 
 		//GUI.Label (new Rect (centreScreenX - 250, centreScreenY - 200, 500, 100), "Project Choice: Battlefield Perth", gameTitle);
-		GUI.Label (new Rect (centreScreenX - 250, centreScreenY + 10, 500, 100), "Numbers connected: " + currentPlayers + " of " + playerRequired, connectionInfo);
-		GUI.Label (new Rect (centreScreenX - 250, centreScreenY + 120, 500, 100), "Join using the server name: " + networkName, connectHow);
-		GUI.Label (new Rect (0, centreScreenY - 50, 400, 80), "Players Connected", connectionInfo);
-		GUI.Label (new Rect (10, centreScreenY + 50, 400, 500), DisplayPlayers());
+		//GUI.Label (new Rect (centreScreenX - 250, centreScreenY + 10, 500, 100), "Numbers connected: " + currentPlayers + " of " + playerRequired, connectionInfo);
+		//GUI.Label (new Rect (centreScreenX - 250, centreScreenY + 120, 500, 100), "Join using the server name: " + networkName, connectHow);
+		GUI.Label (new Rect (20, centreScreenY - 50, 400, 80), "Numbers connected: " + currentPlayers + " of " + playerRequired, connectionInfo);
+		GUI.Label (new Rect (20, centreScreenY + 50, 400, 500), DisplayPlayers(),connectedPlayers);
 
 
 
@@ -98,11 +99,11 @@ public class Menu : MonoBehaviour {
 			//currentPlayers++;
 				Application.Quit();
 		}
-		if (GUI.Button (new Rect (10, Screen.height - 60, 120, 50), "RESET")) {
-			//call method to reset game play
-			currentPlayers = 0;
+//		if (GUI.Button (new Rect (10, Screen.height - 60, 120, 50), "RESET")) {
+//			//call method to reset game play
+//			currentPlayers = 0;
 
-		}
+//		}
 	}
 	private string DisplayPlayers()
 	{
