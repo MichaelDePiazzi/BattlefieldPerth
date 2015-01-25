@@ -25,7 +25,6 @@ namespace WhatWillWeDoNowServer.GameState
 
         private readonly Timer _updateTimer;
 
-        private bool _isGameOver;
         private DateTime _resetGameAt;
 
         private  enum GameState
@@ -53,13 +52,13 @@ namespace WhatWillWeDoNowServer.GameState
         {
             CheckForTimeouts();
 
-            if (_isGameOver && (DateTime.Now >= _resetGameAt))
+            if ((_gameState == GameState.GameOver) && (DateTime.Now >= _resetGameAt))
                 ResetGame();
         }
 
         private void ResetGame()
         {
-            _isGameOver = false;
+            _gameState = GameState.WaitingForPlayers;
             Players.Clear();
             ResetScenario();
         }
@@ -189,10 +188,10 @@ namespace WhatWillWeDoNowServer.GameState
 
         public void EndGame()
         {
-            if (_isGameOver)
+            if (_gameState == GameState.GameOver)
                 return;
 
-            _isGameOver = true;
+            _gameState = GameState.GameOver;
             _resetGameAt = DateTime.Now.AddSeconds(GameOverTimeout);
         }
 
