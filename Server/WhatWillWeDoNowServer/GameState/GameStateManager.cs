@@ -163,6 +163,11 @@ namespace WhatWillWeDoNowServer.GameState
             var outcome = CurrentScenario.Outcomes.FirstOrDefault(o => o.IsActive(Players));
             if (outcome == null)
             {
+                // failsafe in case none of the outcomes are active - just use the last one
+                outcome = CurrentScenario.Outcomes.LastOrDefault();
+            }
+            if (outcome == null)
+            {
                 UpdateText = "GROUNDHOG DAY!!";
                 ClearChoices();
                 return;
